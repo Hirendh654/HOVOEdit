@@ -53,3 +53,35 @@
   <script src="script.js"></script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HOVOEdit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    /* ================= THEME VARIABLES ================= */
+    :root {
+      --bg: #020617;
+      --text: #e5e7eb;
+      --card: rgba(255, 255, 255, 0.12);
+      --grad: linear-gradient(90deg, #38bdf8, #a855f7, #facc15);
+    }
+
+    body.light {
+      --bg: #f8fafc;
+      --text: #020617;
+      --card: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      b
